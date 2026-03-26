@@ -1,5 +1,7 @@
 {
   "title": "Preparing The Dataset",
   "excerpt": "We created an opt-out portal and are now waiting before cleaning the dataset and starting training.",
-  "content": "On day two, we worked on making the process more transparent for everyone in the server. We built a dedicated <strong>opt-out portal</strong> so members can choose not to have their messages included in the training data. <br><br> We will make an announcement and leave it open for the next <strong>3–4 days</strong>, after which we will close it and move on to the next step. <br><br> Once the opt-out window ends, we will clean the scraped data, remove the messages of anyone who chose not to participate, and begin preparing the dataset for training. <br><br> If everything goes as planned, training will start right after that. <br><br><div style=\"text-align: right;\"><em>— Myrachane, ML Engineer and Bot Developer</em></div>"
+  "by": "myrachane",
+  "role": "ML Engineer and Bot Developer",
+  "content": "On day two, we worked on making the process more transparent for everyone in the server. We built a dedicated <strong>opt-out portal</strong> so members can choose not to have their messages included in the training data. <br><br> We will make an announcement and leave it open for the next <strong>3–4 days</strong>, after which we will close it and move on to the next step. <br><br> Once the opt-out window ends, we will clean the scraped data, remove the messages of anyone who chose not to participate, and begin preparing the dataset for training. <br><br> If everything goes as planned, training will start right after that."
 }

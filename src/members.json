@@ -1,19 +1,94 @@
 {
   "members": [
-    { "login": "omnimistic", "name": "Prasurjya Pratim Talukdar", "avatar_url": "https://avatars.githubusercontent.com/u/128120000?v=4", "html_url": "https://github.com/omnimistic" },
-    { "login": "ho-cyber", "name": "ho-cyber", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/ho-cyber" },
-    { "login": "natyavidhan", "name": "Natya Vidhan Biswas", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/natyavidhan" },
-    { "login": "myrachane", "name": "emty", "avatar_url": "https://avatars.githubusercontent.com/u/208377404?v=4", "html_url": "https://github.com/myrachane" },
-    { "login": "atshayk", "name": "Anis Timur Shayk", "avatar_url": "https://avatars.githubusercontent.com/u/88106992?v=4", "html_url": "https://github.com/atshayk" },
-    { "login": "divyanshudhruv", "name": "Divyanshu Dhruv", "avatar_url": "https://avatars.githubusercontent.com/u/71079602?v=4", "html_url": "https://github.com/divyanshudhruv" },
-    { "login": "hemlox", "name": "Darshil Trivedi", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/hemlox" },
-    { "login": "PSB1234", "name": "Prathamesh", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/PSB1234" },
-    { "login": "vaemaski", "name": "Vaishali Singh", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/vaemaski" },
-    { "login": "RkCode2025", "name": "Syphax", "avatar_url": "https://avatars.githubusercontent.com/u/177230008?v=4", "html_url": "https://github.com/RkCode2025" },
-    { "login": "Spandan-Mishra", "name": "spandev", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/Spandan-Mishra" },
-    { "login": "theNeonTerminal", "name": "/usr/NeonTerminal", "avatar_url": "https://avatars.githubusercontent.com/u/132378233?v=4", "html_url": "https://github.com/theNeonTerminal" },
-    { "login": "X3r0Day", "name": "X3r0Day", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/X3r0Day" },
-    { "login": "siddbhatt18", "name": "nizxmo", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/siddbhatt18" },
-    { "login": "datavorous", "name": "datavorous", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4", "html_url": "https://github.com/datavorous" }
+    {
+      "login": "omnimistic",
+      "name": "Prasurjya Pratim Talukdar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128120000?v=4",
+      "html_url": "https://github.com/omnimistic"
+    },
+    {
+      "login": "ho-cyber",
+      "name": "ho-cyber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73955316?v=4",
+      "html_url": "https://github.com/ho-cyber"
+    },
+    {
+      "login": "natyavidhan",
+      "name": "Natya Vidhan Biswas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67009562?v=4",
+      "html_url": "https://github.com/natyavidhan"
+    },
+    {
+      "login": "myrachane",
+      "name": "Subhadeep Das",
+      "avatar_url": "https://avatars.githubusercontent.com/u/208377404?v=4",
+      "html_url": "https://github.com/myrachane"
+    },
+    {
+      "login": "atshayk",
+      "name": "Anis Timur Shayk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88106992?v=4",
+      "html_url": "https://github.com/atshayk"
+    },
+    {
+      "login": "divyanshudhruv",
+      "name": "Divyanshu Dhruv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71079602?v=4",
+      "html_url": "https://github.com/divyanshudhruv"
+    },
+    {
+      "login": "hemlox",
+      "name": "Darshil Trivedi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218402153?v=4",
+      "html_url": "https://github.com/hemlox"
+    },
+    {
+      "login": "PSB1234",
+      "name": "Prathamesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42248309?v=4",
+      "html_url": "https://github.com/PSB1234"
+    },
+    {
+      "login": "vaemaski",
+      "name": "Vaishali Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4",
+      "html_url": "https://github.com/vaemaski"
+    },
+    {
+      "login": "RkCode2025",
+      "name": "Syphax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177230008?v=4",
+      "html_url": "https://github.com/RkCode2025"
+    },
+    {
+      "login": "Spandan-Mishra",
+      "name": "spandev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143828642?v=4",
+      "html_url": "https://github.com/Spandan-Mishra"
+    },
+    {
+      "login": "theNeonTerminal",
+      "name": "/usr/NeonTerminal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132378233?v=4",
+      "html_url": "https://github.com/theNeonTerminal"
+    },
+    {
+      "login": "X3r0Day",
+      "name": "X3r0Day",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121121675?v=4",
+      "html_url": "https://github.com/X3r0Day"
+    },
+    {
+      "login": "siddbhatt18",
+      "name": "nizxmo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4",
+      "html_url": "https://github.com/siddbhatt18"
+    },
+    {
+      "login": "datavorous",
+      "name": "datavorous",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70896212?v=4",
+      "html_url": "https://github.com/datavorous"
+    }
   ]
 }

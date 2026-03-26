@@ -1,5 +1,7 @@
 {
   "title": "The First Thousand Souls",
   "excerpt": "Our initial plan to scrape our community Discord and birth a collective engineering LLM.",
+  "by": "ho-cyber",
+  "role": "AI Lead",
   "content": "Our plan was to scrape our Discord server and feed the data into an AI to create an LLM that serves as an amalgamation of the personalities of the thousands of developers in the server. <br><br> We scraped our server using <strong>DiscordChatExporter</strong> and then cleaned the text by removing links and other metadata. We focused exclusively on scraping text messages to ensure the model learns from human conversation. <br><br> Now, we plan to feed all of this data into <strong>artifish/llama3.2-uncensored</strong>. While the goal is for the model to take inputs and provide outputs based on our community's persona, we are genuinely curious to see how the model's personality evolves once the process is complete. <br><br> After the training is finished, we plan to develop a Discord bot to add the model back into the same server that gave birth to it, completing the cycle."
 }

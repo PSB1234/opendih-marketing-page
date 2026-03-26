@@ -11,7 +11,6 @@
         "atshayk",
         "hemlox",
         "divyanshudhruv"
-        
       ]
     },
     {
@@ -19,16 +18,16 @@
       "description": "Directs Tech projects. Reviews, and approves some Pull Requests.",
       "members": ["omnimistic"]
     },
-    {
-      "name": "Website Leads",
-      "description": "Manages website repositories. Has full rights to merge code in web projects and approve Pull Requests.",
-      "members": ["divyanshudhruv", "PSB1234"]
-    },
 
     {
       "name": "AI Leads",
       "description": "Oversees all AI repositories. Has full rights to manage AI projects, merge code, and approve Pull Requests.",
       "members": ["natyavidhan", "ho-cyber"]
+    },
+    {
+      "name": "Website Leads",
+      "description": "Manages website repositories. Has full rights to merge code in web projects and approve Pull Requests.",
+      "members": ["divyanshudhruv", "PSB1234"]
     },
     {
       "name": "Bot Leads",
@@ -39,7 +38,7 @@
     {
       "name": "ML Engineers",
       "description": "Contributes to machine learning and AI repositories.",
-      "members": ["vaemaski", "RkCode2025", "myrachane", "hemlox"]
+      "members": ["datavorous", "vaemaski", "RkCode2025", "myrachane", "hemlox"]
     },
     {
       "name": "Backend Engineers",
@@ -54,12 +53,12 @@
     {
       "name": "Frontend Engineers",
       "description": "Contributes to website and frontend projects.",
-      "members": ["divyanshudhruv","siddbhatt18"]
+      "members": ["divyanshudhruv", "siddbhatt18"]
     },
     {
       "name": "Others",
       "description": "Organization members.",
-      "members": ["datavorous"]
+      "members": [""]
     }
   ]
 }

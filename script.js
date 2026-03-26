@@ -3,6 +3,7 @@ let isDescending = true;
 let blogCache = {};
 let discoveryComplete = false;
 let teamMembers = null;
+let allMembers = null;
 
 let keySequence = "";
 
@@ -141,15 +142,54 @@ function openBlog(file) {
   const title = escapeHtml(data.title) || "Untitled";
   const content = data.content || "";
   const date = formatDate(file);
+  const authorUsername = escapeHtml(data.by) || "";
+  const role = escapeHtml(data.role) || "";
+
+  let authorHtml = "";
+
+  if (authorUsername && allMembers) {
+    const member = allMembers.find(m => m.login === authorUsername);
+    if (member) {
+      authorHtml = `<br><br><br><div class="blog-author" style="text-align: right; font-size: 14px;">
+        <em style="color: var(--accent); display: flex; align-items: center; justify-content: flex-end; gap: 4px;">
+          — 
+          <a href="${member.html_url}" target="_blank" style="text-decoration: none; display: inline-flex; align-items: center;">
+            <img src="${member.avatar_url}" alt="${member.name || member.login}" style="width: 25px; height: 25px; border-radius: 50%; object-fit: cover; margin: 0 4px;">
+          </a>
+          <span>${member.name || member.login}</span>
+          ${role ? `, <span style="font-size: 14px;">${role}</span>` : ""}
+        </em>
+      </div>`;
+    } else {
+      // Fallback if member not found
+      authorHtml = `<br><br><br><div class="blog-author" style="text-align: right; font-size: 16px;">
+        <em><span style="color: var(--accent);">— ${authorUsername}</span>
+        ${role ? `, <span style="color: var(--accent); font-size: 14px;">${role}</span>` : ""}
+      </em></div>`;
+    }
+  }
 
   document.getElementById("modal-content").innerHTML = `
     <h2 class="modal-title">${title}</h2>
     <div class="modal-meta">${date}</div>
     <div class="modal-content blog-post">${content}</div>
+    ${authorHtml}
     <br><br><br><br>`;
 
   document.getElementById("modal-overlay").classList.add("active");
   document.body.style.overflow = "hidden";
+}
+
+async function loadAllMembers() {
+  try {
+    const membersRes = await fetch("src/members.json");
+    if (!membersRes.ok) throw new Error("Failed to load members.json");
+    const membersData = await membersRes.json();
+    allMembers = membersData.members;
+  } catch (e) {
+    console.error("Failed to load all members:", e);
+    allMembers = [];
+  }
 }
 
 async function loadTeamMembers() {
@@ -321,6 +361,8 @@ function downloadNewBlog() {
   const blogData = {
     title: title,
     excerpt: excerpt,
+    by: author || "",
+    role: role || "",
     content: fullContent,
   };
 
@@ -393,4 +435,5 @@ document.addEventListener("keydown", (e) => {
 });
 
 renderBlogs();
+loadAllMembers();
 loadTeamMembers();
