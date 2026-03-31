@@ -124,8 +124,27 @@ nav::after {
 }
 
 .nav-logo-img {
-  height: 2.8rem;
+  height: 6rem;
   width: auto;
+}
+
+.nav-logo-dark {
+  display: none;
+}
+
+.nav-logo-light {
+  margin-right: -1rem;
+}
+
+[data-theme="dark"] .nav-logo-light {
+  display: none;
+}
+
+[data-theme="dark"] .nav-logo-dark {
+  display: inline;
+  filter: invert(1);
+  height: 6rem;
+  margin-right: -1rem;
 }
 
 .nav-logo:hover {
@@ -905,6 +924,10 @@ footer::before {
   inset: 0;
   z-index: 9999;
   transition: opacity 0.4s ease;
+  background: none;
+}
+
+[data-theme="dark"] .torch-overlay {
   background: radial-gradient(
     circle 220px at var(--tx, -999px) var(--ty, -999px),
     rgba(160, 32, 240, 0.18) 0%,

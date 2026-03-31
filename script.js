@@ -438,8 +438,9 @@ renderBlogs();
 loadAllMembers();
 loadTeamMembers();
 
-// Torch / cursor spotlight effect
+// Torch / cursor spotlight effect (desktop only)
 (function () {
+  if (window.matchMedia("(pointer: coarse)").matches) return;
   const overlay = document.getElementById("torch-overlay");
   document.addEventListener("mousemove", (e) => {
     overlay.style.setProperty("--tx", e.clientX + "px");
