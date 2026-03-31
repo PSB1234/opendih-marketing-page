@@ -437,3 +437,12 @@ document.addEventListener("keydown", (e) => {
 renderBlogs();
 loadAllMembers();
 loadTeamMembers();
+
+// Torch / cursor spotlight effect
+(function () {
+  const overlay = document.getElementById("torch-overlay");
+  document.addEventListener("mousemove", (e) => {
+    overlay.style.setProperty("--tx", e.clientX + "px");
+    overlay.style.setProperty("--ty", e.clientY + "px");
+  });
+})();

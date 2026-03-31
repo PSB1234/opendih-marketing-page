@@ -25,11 +25,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="torch-overlay" id="torch-overlay"></div>
     <nav>
-      <a href="https://github.com/OpenDih" target="_blank" class="nav-logo serif">OpenDih</a>
+      <a href="https://github.com/OpenDih" target="_blank" class="nav-logo serif">
+        <img src="logo.png" alt="OpenDih logo" class="nav-logo-img" />OpenDih
+      </a>
       <div class="nav-right">
         <div class="nav-links">
           <a href="#research">Research</a>
@@ -166,14 +170,15 @@
 
       <footer>
         <span id="footer-text">
-          &copy; 2026 OpenDih Research Collective. 
+          &copy; 2026 OpenDih Research Collective.
         </span>
-        
+
       </footer>
+
     </div>
 
     <div id="modal-overlay" onclick="handleOverlayClick(event)">
-      <button id="close-modal" onclick="closeModal()">&#10005;</button>
+      <button id="close-modal" onclick="closeModal()"><i class="fa-solid fa-arrow-left"></i></button>
       <div id="modal-window" onclick="event.stopPropagation()">
         <div id="modal-content"></div>
       </div>
